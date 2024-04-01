@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "portfolio": {
+    "mathis-basier": {
       "projectType": "application",
       "schematics": {},
       "root": "",
