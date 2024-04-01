@@ -5,7 +5,6 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
 import { ProjectComponent } from './project/project.component';
-import { NavComponent } from './nav/nav.component';
 
 @Component({
   selector: 'app-root',
@@ -16,7 +15,6 @@ import { NavComponent } from './nav/nav.component';
             ContactComponent,
             HomeComponent,
             ProjectComponent,
-            NavComponent,
           ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'

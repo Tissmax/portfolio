@@ -1,25 +1,42 @@
+html {
+    scroll-snap-type: y mandatory;
+    scroll-padding-top: 30px;
+}
 
-
-section {
+body {
     display: flex;
     flex-direction: column;
     background-color: none;
+
 }
-div {
+nav {
+    height: 30px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+section {
     height: 100vh;
     min-height: 100px;
     min-width: 100%;
     position: relative;
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
 }
-.home {
-    background-color: aqua;
-}
-.project {
+#home {
     background-color: black;
 }
-.about {
+#project {
     background-color: aqua;
 }
-.contact {
+#about {
     background-color: black;
+}
+#contact {
+    background-color: aqua;
+}
+a {
+    color: aliceblue;
+    margin-left: 10px;
+    text-decoration: none;
 }
