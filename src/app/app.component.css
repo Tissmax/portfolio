@@ -1,0 +1,25 @@
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    background-color: none;
+}
+div {
+    height: 100vh;
+    min-height: 100px;
+    min-width: 100%;
+    position: relative;
+}
+.home {
+    background-color: aqua;
+}
+.project {
+    background-color: black;
+}
+.about {
+    background-color: aqua;
+}
+.contact {
+    background-color: black;
+}
